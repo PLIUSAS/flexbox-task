@@ -1,3 +1,15 @@
+* {
+  background-color: rgb(63, 1, 90);
+}
+body {
+  border: 5px solid rgb(171, 0, 245);
+  padding: 15px;
+  background-color: rgb(171, 0, 245);
+}
+body div {
+  display: flex;
+  flex-direction: column;
+}
 .bg-red {
   background-color: red;
 }
@@ -24,7 +36,7 @@
 
 .container {
   display: flex;
-  border: 1px solid black;
+  border: 5px solid black;
   margin-bottom: 1rem;
   width: 600px;
   height: 600px;
@@ -33,6 +45,7 @@
 /* Task 1 */
 
 .task1 {
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -51,8 +64,8 @@
 /* Task 2 */
 
 .task2 {
-  flex-direction: column;
-  flex-wrap: wrap;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 .task2 .child {
@@ -65,4 +78,43 @@
 
 .task2 .bigger {
   height: 400px;
+}
+/* Task 3 */
+.task3 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.task3 .child {
+  width: 200px;
+}
+.task3 .bigger {
+  height: 400px;
+}
+.task3 .smaller {
+  height: 200px;
+}
+/* task4 */
+.task4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task4 .child {
+  width: 120px;
+}
+.task4 .smaller {
+  height: 150px;
+}
+/* task5 */
+.task5 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task5 .child {
+  width: 100px;
+}
+.task5 .bigger {
+  height: 80px;
+}
+.task5 .smaller {
+  height: 150px;
 }
