@@ -2,8 +2,7 @@
   background-color: rgb(63, 1, 90);
 }
 body {
-  border: 5px solid rgb(171, 0, 245);
-  padding: 15px;
+  padding: 10px;
   background-color: rgb(171, 0, 245);
 }
 body div {
@@ -36,12 +35,19 @@ body div {
 
 .container {
   display: flex;
-  border: 5px solid black;
+  border: 1px solid black;
   margin-bottom: 1rem;
   width: 600px;
   height: 600px;
 }
+nav {
+  background-color: rgb(171, 0, 245);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 
+}
 /* Task 1 */
 
 .task1 {
