@@ -124,3 +124,30 @@ flex-wrap: wrap;
 .task5 .smaller {
   height: 150px;
 }
+.task6x {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: baseline;
+}
+.task6 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task6 .bigger {
+  height: 300px;
+  width: 600px;
+}
+.task6 .smaller {
+  height: 150px;
+  width: 100px;
+  align-self: baseline;
+}
+.task6 .medium {
+  height: 300px;
+  width: 200px;
+}
+.task6 .small {
+  height: 100px;
+  width: 200px;
+  align-self: baseline;
+}
