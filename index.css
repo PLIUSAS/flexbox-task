@@ -2,7 +2,12 @@
   background-color: rgb(63, 1, 90);
 }
 body {
-  padding: 10px;
+  display: grid;
+  grid-row: row;
+  width: 3100px;
+  margin: auto;
+  margin-top: 400px;
+  padding: 50px;
   background-color: rgb(171, 0, 245);
 }
 body div {
@@ -124,6 +129,7 @@ flex-wrap: wrap;
 .task5 .smaller {
   height: 150px;
 }
+/* task6 */
 .task6x {
   flex-direction: row;
   flex-wrap: wrap;
@@ -151,3 +157,202 @@ flex-wrap: wrap;
   width: 200px;
   align-self: baseline;
 }
+/* task7 */
+.task7 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task7 .bigger {
+  height: 300px;
+  width: 500px;
+}
+.task7 .smaller {
+  flex-direction: row;
+  height: 150px;
+  width: 100px;
+  align-self: baseline;
+  align-content: space-between;
+}
+/* task8 */
+.task8 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task8 .bigger {
+  height: 300px;
+  width: 600px;
+}
+.task8 .smaller {
+  height: 150px;
+  width: 200px;
+}
+/* task 9 */
+.task9 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task9 .smaller {
+  height: 100px;
+  width: 120px;
+}
+/* task 10 */
+.task10 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task10 .smaller {
+  height: 50px;
+  width: 100px;
+}
+/* task 11 */
+.task11 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task11 .bigger {
+  height: 500px;
+  width: 600px;
+}
+.task11 .smaller {
+  height: 100px;
+  width: 120px;
+}
+/* task 12 */ 
+.task12 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task12 .bigger {
+  width: 120px;
+  height: 600px;
+}
+/* task 13 */
+.task13 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task13 .bigger {
+  width: 600px;
+  height: 120px;
+}
+/* task 14 */
+.task14 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task14 .smaller {
+  height: 50px;
+  width: 50px;
+}
+/* task 15 */
+.task15 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task15 .smaller {
+  height: 50px;
+  width: 50px;
+}
+/* task 16 */
+.task16 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task16 .bigger {
+  width: 600px;
+  height: 200px;
+}
+.task16 .smaller {
+  width: 150px;
+  height: 200px;
+}
+.div-firstchild {
+  flex-wrap: wrap;
+  width: 300px;
+  height: 200px;
+}
+.task16 .small {
+  align-content: stretch;
+  width: 150px;
+  height: 100px;
+  flex-direction: column;
+}
+/* task 17 */ 
+.task17 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.div-firstchild-secont {
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 600px;
+  height: 300px;
+}
+.task17 .bigger {
+  width: 400px;
+  height: 600px;
+}
+.task17 .smaller {
+  width: 200px;
+  height: 150px;
+}
+.task17 .small {
+  align-items: stretch;
+  width: 100px;
+  height: 150px;
+}
+.start {
+  align-items: flex-start;
+}
+.end {
+  align-items: flex-end;
+}
+.firstchild-section {
+  flex-wrap: wrap;
+  width: 200px;
+  height: 150px;
+}
+/* task 18 */
+.task18 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+.task18 .child {
+      width: 200px;
+ }
+    
+.task18 .smaller {
+      height: 200px;
+}
+    
+.task18 .bigger {
+      height: 300px;
+}
+/* task 19 */
+.task19 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+.task19 .bigger {
+  width: 400px;
+  height: 400px;
+}
+.task19 .smaller {
+  width: 100px;
+  height: 100px;
+}
+/* task 20 */
+.task20 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+.task20 .bigger {
+  width: 150px;
+  height: 200px;
+}
+/* DONE */
